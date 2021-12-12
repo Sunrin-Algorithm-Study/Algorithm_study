@@ -89,7 +89,7 @@ Codility https://app.codility.com/programmers/ <br>
 
 ## Git 저장소 이용하는 방법
 
-- 저장소 : https://github.com/SimJoonTTMD/Algorithm_group
+- 저장소 : https://github.com/Sunrin-Algorithm-Study/Algorithm_study
 
 ### 폴더 설명
 
@@ -106,7 +106,7 @@ Codility https://app.codility.com/programmers/ <br>
 
 #### 원격저장소 로컬에 가져오기
 
-<code> git clone https://github.com/TheCopiens/algorithm-study.git </code>
+<code> git clone https://github.com/Sunrin-Algorithm-Study/Algorithm_study </code>
 
 #### 로컬에서 개인 브랜치 생성하기
 

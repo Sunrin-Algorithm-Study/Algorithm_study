@@ -14,5 +14,5 @@ while T > 0:
     result = Counter(kinds)
     ans = 1
     for k in result:
-        ans *= result[k] + 1
-    print(ans-1)
+        ans *= result[k] + 1 # 안 입는 경우와 입는 경우 모두 포함해서 곱함
+    print(ans-1) # 모든 옷을 안 입는 경우만 제외

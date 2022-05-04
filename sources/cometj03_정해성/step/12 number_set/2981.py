@@ -21,7 +21,12 @@ for i in range(N-1):
     gcd_list.append(gcd(arr_m[i], arr_m[i+1]))
 
 gcd_m = min(gcd_list)
+ans = []
 # gcd 중 최솟값(최대 공약수)의 약수
-for i in range(2, gcd_m+1):
+for i in range(2, int(gcd_m**0.5)+1):
     if gcd_m % i == 0:
-        print(i, end=' ')
+        ans.append(i)
+        ans.append(gcd_m//i)
+ans.append(gcd_m)
+ans = sorted(list(set(ans)))
+print(' '.join(map(str, ans)))
